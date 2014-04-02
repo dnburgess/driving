@@ -834,7 +834,10 @@ footer {
 	padding-left: 15% !important;
 	padding-right: 15% !important;
 	}
+<<<<<<< HEAD
 	.elastislide-carousel ul li a img {height:60% !important}
+=======
+>>>>>>> 6f087663821b0cc74b1b2a17b11f88fb56a6f120
 }
 @media only screen and (max-width: 925px) {
 	header .six .eighteen {font-size: 17px;padding-left: 20px;}
@@ -871,8 +874,12 @@ footer {
 	section:nth-child(3) article {width:46%; margin:30px 2% 10px;}
 	.owl-carousel .owl-item .item {padding-left: 50px !important;}
 	section:nth-child(4) .owl-carousel .owl-item .item {padding-left: 5% !important;padding-right: 5% !important;}
+<<<<<<< HEAD
 	section:nth-child(4) .owl-carousel .owl-item .item h3 {width:150px !important; text-align:center !important}
 	section:nth-child(4) .testimonial {margin-top:-130px !important; float:right !important;}
+=======
+	section:nth-child(4) .testimonial {margin-top:-130px !important;}
+>>>>>>> 6f087663821b0cc74b1b2a17b11f88fb56a6f120
 	.elastislide-horizontal nav span {top:15% !important;}
 	footer .map {width:31%; height:230px;}
 	footer .social {width:38%; height:230px;padding-left:10%;}
@@ -913,6 +920,9 @@ footer {
 		width: 29% !important;
 		margin-top: 30px !important;
 	}
+}
+@media only screen and (max-width: 610px) {
+	section:nth-child(4) .testimonial {float:right !important; margin-top:-170px !important;}
 }
 @media only screen and (max-width: 610px) {
 	section:nth-child(4) .testimonial {float:right !important; margin-top:-170px !important;}
@@ -992,10 +1002,13 @@ footer {
 			display:none !important;
 		}
 	}
+<<<<<<< HEAD
 	.elastislide-carousel ul li a {border:2px solid rgba(180,180,180,1) !important}
 	.elastislide-carousel ul li a img {height:50% !important}
 	footer .social {width:50%;padding-left:0%; margin:30px 25% 0 !important}
 	footer .branding {width:100%;}
+=======
+>>>>>>> 6f087663821b0cc74b1b2a17b11f88fb56a6f120
 }
 @media only screen and (max-width: 400px) {
 	header .six .eighteen {font-size:20px;}
