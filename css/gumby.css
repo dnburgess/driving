@@ -2018,8 +2018,17 @@ section:nth-child(3) article .service-intro p { text-align: center; font-family:
 section:nth-child(4) { /* Testimonials */ background: url(../img/testimonials-bg.png); height: auto; }
 section:nth-child(4) .testimonial-header { width: 100%; float: left; margin: 25px 0; }
 section:nth-child(4) .testimonial-header img { display: block; margin: 0 auto; }
-section:nth-child(4) .testimonial { width: 65%; height: auto; float: left; background: #fff; padding: 20px 20px 20px 20px; font-size: 18px; line-height: 20px; text-align: left; font-family: "Alegreya Sans", sans-serif; font-style: italic; color: #000; background-size: cover; position: relative; margin-left: 40px; box-shadow: 0px 0px 5px #333; }
+section:nth-child(4) .testimonial { width: 55%; height: auto; float: right; margin-right: 10%; background: #fff; padding: 20px 20px 20px 20px; font-size: 18px; line-height: 20px; text-align: left; font-family: "Alegreya Sans", sans-serif; font-style: italic; color: #000; background-size: cover; position: relative; margin-left: 50px; margin-top: -140px; box-shadow: 0px 0px 5px #333; }
 section:nth-child(4) .testimonial:after { content: ""; position: absolute; bottom: 25%; left: -40px; border-width: 0 40px 25px 0px; border-style: solid; border-color: transparent #fff; display: block; width: 0; }
+section:nth-child(4) .owl-carousel .owl-item .item { padding-left: 5px !important; }
+section:nth-child(4) .owl-carousel .owl-item .item h3 { width: 150px; float: left; font-size: 16px; color: #000; clear: left; text-align: center; }
+section:nth-child(4) .owl-carousel .owl-item .item > div { width: 100% !important; margin-top: 0px !important; width: 150px !important; height: 150px !important; border-radius: 100% !important; border: 6px solid #b4b4b4; background: #348cb6; overflow: hidden; float: left !important; position: relative !important; }
+section:nth-child(4) .owl-carousel .owl-item .item > div img { display: block !important; margin: 0 auto !important; width: 150px !important; height: 150px !important; }
+section:nth-child(4) .owl-carousel .owl-item .item > div .link { width: 40px; height: 40px; display: block; position: absolute; right: -70px; bottom: 10%; background: #931420 url(../img/icons/link.png) 5px 5px no-repeat; -webkit-transition: all .2s ease-in-out; -moz-transition: all .2s ease-in-out; -o-transition: all .2s ease-in-out; transition: all .2s ease-in-out; }
+section:nth-child(4) .owl-carousel .owl-item .item > div:hover { border: 6px solid #b4b4b4; background: #348cb6; }
+section:nth-child(4) .owl-carousel .owl-item .item > div:hover .link { display: block; right: 0px; }
+section:nth-child(4) .owl-carousel .owl-item .item > div:hover img { opacity: .6; }
+section:nth-child(4) .owl-carousel .owl-item .item > div h3 { display: block !important; text-align: center !important; }
 section:nth-child(4) .owl-pagination { width: 174px; height: 66px; margin: 0 auto; background: url(../img/testimonial-nav.png) 50% 0 no-repeat; position: relative; top: 15px; padding: 35px 25px 15px 25px; overflow: hidden; display: table; text-align: center; }
 section:nth-child(4) .owl-pagination li { margin: 0 5px !important; }
 section:nth-child(4) ul { left: 0px; }
@@ -2034,6 +2043,11 @@ section:nth-child(5) img { display: block; margin: 0 auto; }
 section:nth-child(5) .elastislide-wrapper { height: auto; padding-bottom: 30px; width: 94.5% !important; }
 section:nth-child(5) .elastislide-carousel { height: auto; }
 section:nth-child(5) ul { height: auto; max-height: 307px !important; }
+section:nth-child(5) ul li { position: relative; overflow: hidden; }
+section:nth-child(5) ul li .link { width: 40px; height: 40px; display: block; position: absolute; right: -70px; top: 26% !important; background: #931420 url(../img/icons/link.png) 50% no-repeat; -webkit-transition: all .2s ease-in-out; -moz-transition: all .2s ease-in-out; -o-transition: all .2s ease-in-out; transition: all .2s ease-in-out; }
+section:nth-child(5) ul li:hover .link { left: 67% !important; top: 46% !important; width: 40px !important; height: 40px !important; margin-top: -40px !important; margin-left: -40px !important; }
+section:nth-child(5) ul li:hover img { opacity: .6; }
+section:nth-child(5) ul li h3 { display: block !important; text-align: center !important; }
 section:nth-child(5) h3 { text-align: center; color: #000; font-family: "Alegreya Sans", sans-serif; font-weight: 700; font-size: 18px; line-height: 20px; margin: 0; padding: 0; }
 section:nth-child(5) h4 { text-align: center; color: #000; font-family: "Alegreya Sans", sans-serif; font-weight: 400; font-size: 18px; line-height: 20px; margin: 0; padding: 0; }
 
@@ -2067,7 +2081,7 @@ footer p { font-family: "Alegreya Sans", sans-serif; font-size: 14px; line-heigh
 .inside-pages aside .testimonial { width: 96% !important; height: 100% !important; background: #fff !important; padding: 10px !important; background-size: cover !important; position: relative !important; box-shadow: 0px 0px 5px #333; margin: 0px 0px 30px 0px !important; z-index: 1 !important; }
 .inside-pages aside .testimonial:after { content: ""; position: absolute; bottom: -30px; left: 50px; border-width: 0 20px 30px 0px; border-style: solid; border-color: transparent #fff; display: block; width: 0; z-index: -1; }
 .inside-pages aside .owl-carousel .owl-item .item { padding-left: 5px !important; }
-.inside-pages aside .owl-carousel .owl-item .item > div { width: 100% !important; margin-top: 30px !important; width: 150px !important; height: 150px !important; border-radius: 100% !important; border: 6px solid #b4b4b4; background: #348cb6; overflow: hidden; float: none !important; margin: 0 auto !important; position: relative !important; }
+.inside-pages aside .owl-carousel .owl-item .item > div { margin-top: 30px !important; width: 150px !important; height: 150px !important; border-radius: 100% !important; border: 6px solid #b4b4b4; background: #348cb6; overflow: hidden; float: none !important; margin: 0 auto !important; position: relative !important; }
 .inside-pages aside .owl-carousel .owl-item .item > div img { display: block !important; margin: 0 auto !important; width: 150px !important; height: 150px !important; }
 .inside-pages aside .owl-carousel .owl-item .item > div .link { width: 40px; height: 40px; display: block; position: absolute; right: -70px; bottom: 10%; background: #931420 url(../img/icons/link.png) 5px 5px no-repeat; -webkit-transition: all .2s ease-in-out; -moz-transition: all .2s ease-in-out; -o-transition: all .2s ease-in-out; transition: all .2s ease-in-out; }
 .inside-pages aside .owl-carousel .owl-item .item > div:hover { border: 6px solid #b4b4b4; background: #348cb6; }
@@ -2078,7 +2092,9 @@ footer p { font-family: "Alegreya Sans", sans-serif; font-size: 14px; line-heigh
 @media only screen and (max-width: 1225px) { section:nth-child(4) .carousel { width: 100% !important; }
   section:nth-child(4) .carousel > ul { margin-left: 20px !important; }
   section:nth-child(4) li { margin-left: -53px !important; }
-  .inside-pages aside .testimonial { width: 99% !important; height: 100% !important; padding-bottom: 52px !important; font-size: 16px !important; line-height: 18px !important; } }
+  .elastislide-carousel ul li a img { height: 70% !important; }
+  .inside-pages aside .testimonial { width: 99% !important; height: 100% !important; padding-bottom: 52px !important; font-size: 16px !important; line-height: 18px !important; }
+  section:nth-child(4) .testimonial { margin-top: -170px !important; } }
 @media only screen and (max-width: 1125px) { header .six .eighteen { font-size: 19px; }
   header .navbar#nav2 ul li a { font-size: 12px; }
   section:nth-child(4) .carousel { width: 100% !important; }
@@ -2094,15 +2110,20 @@ footer p { font-family: "Alegreya Sans", sans-serif; font-size: 14px; line-heigh
   .inside-pages aside { width: 27% !important; min-width: 300px !important; float: right !important; }
   .inside-pages aside .sidebar-testimonials { width: 100% !important; float: left !important; background: url(../img/testimonials-bg.png) !important; padding: 10px 25px 0px !important; }
   .inside-pages aside .testimonial { width: 99% !important; height: 100% !important; padding-bottom: 52px !important; font-size: 14px !important; line-height: 16px !important; } }
+@media only screen and (max-width: 975px) { section:nth-child(4) .testimonial { margin-top: -130px !important; }
+  section:nth-child(4) .owl-carousel .owl-item .item { padding-left: 15% !important; padding-right: 15% !important; }
+  .elastislide-carousel ul li a img { height: 60% !important; } }
 @media only screen and (max-width: 925px) { header .six .eighteen { font-size: 17px; padding-left: 20px; }
   header .navbar#nav2 ul li a { font-size: 10px; }
   section:nth-child(4) .carousel > ul { width: auto !important; }
-  section:nth-child(4) .testimonial { width: 47% !important; }
+  section:nth-child(4) .testimonial { width: 60% !important; float: left; margin-right: 0% !important; }
   .owl-carousel .owl-item .item { padding-left: 190px !important; }
   .inside-pages aside .testimonial { width: 100% !important; } }
 @media only screen and (max-width: 865px) { header .six .eighteen { font-size: 14px; padding-left: 20px; }
   header .navbar#nav2 ul li a { font-size: 9px; }
   .inside-pages article { width: 57.5% !important; } }
+@media only screen and (max-width: 800px) { .elastislide-carousel ul li a { width: 70% !important; }
+  .elastislide-carousel ul li a img { height: 60% !important; width: 100% !important; } }
 @media only screen and (max-width: 768px) { header .navbar#nav1 { height: 50px; }
   header .navbar#nav1 select { display: block; float: right; padding: 10px; }
   header .six .two { float: right; margin-top: 1px; margin-right: 2px; }
@@ -2115,35 +2136,49 @@ footer p { font-family: "Alegreya Sans", sans-serif; font-size: 14px; line-heigh
   header .six .eighteen { font-size: 24px; padding-left: 0px; text-align: center; padding-top: 8px; }
   section:nth-child(3) article { width: 46%; margin: 30px 2% 10px; }
   .owl-carousel .owl-item .item { padding-left: 50px !important; }
-  section:nth-child(4) .testimonial { width: 67% !important; }
+  section:nth-child(4) .owl-carousel .owl-item .item { padding-left: 5% !important; padding-right: 5% !important; }
+  section:nth-child(4) .owl-carousel .owl-item .item h3 { width: 150px !important; text-align: center !important; }
+  section:nth-child(4) .testimonial { margin-top: -130px !important; float: right !important; }
   .elastislide-horizontal nav span { top: 15% !important; }
   footer .map { width: 31%; height: 230px; }
   footer .social { width: 38%; height: 230px; padding-left: 10%; }
   footer .branding { width: 48%; }
+  p { font-size: .9rem !important; padding-right: 5% !important; }
   .inside-pages article { width: 100% !important; padding: 20px 0 !important; }
-  .inside-pages aside { width: 100% !important; }
+  .inside-pages aside { width: 100% !important; margin-right: 0% !important; }
   .inside-pages aside .testimonial { font-size: 18px !important; line-height: 20px !important; padding: 30px !important; float: left !important; display: block !important; width: 100% !important; }
-  .inside-pages aside .owl-carousel .owl-item .item { padding-left: 10% !important; display: block !important; width: 100% !important; float: left !important; margin-left: -30px !important; }
+  .inside-pages aside .owl-carousel .owl-item .item { padding-left: 10% !important; padding-right: 0% !important; display: block !important; width: 100% !important; float: left !important; margin-left: -30px !important; }
   .inside-pages aside .owl-carousel .owl-item .item > div { width: 100% !important; margin-top: 30px !important; }
-  .inside-pages aside .owl-pagination { top: 13px !important; } }
+  .inside-pages aside .owl-pagination { top: 13px !important; }
+  .inside-pages aside .testimonial { margin-top: 0px !important; }
+  .inside-pages aside .owl-carousel .owl-item .item > div { width: 29% !important; margin-top: 30px !important; } }
+@media only screen and (max-width: 610px) { section:nth-child(4) .testimonial { float: right !important; margin-top: -170px !important; } }
 @media only screen and (max-width: 600px) { section:nth-child(3) article { width: 100%; margin: 30px 0% 10px; }
   section:nth-child(3) article .service-image { width: 100%; }
   section:nth-child(3) article .service-image .service-main { display: block; float: left; margin-bottom: 0px; width: 100%; height: auto; }
   .owl-carousel .owl-item .item { padding-left: 0px !important; }
-  section:nth-child(4) .testimonial { width: 75% !important; }
+  section:nth-child(4) .testimonial { width: 55% !important; margin-top: -140px !important; float: right !important; }
   .elastislide-horizontal nav span { margin-top: 14px !important; }
+  .elastislide-carousel ul li a { display: block !important; width: 90%; height: 100%; border-radius: 100%; border: 6px solid #b4b4b4; margin: 0 16% !important; }
+  .elastislide-carousel ul li a img { height: 50% !important; }
   footer { height: auto; }
-  footer .map { width: 100%; margin: 0; }
+  footer .map { width: 100%; margin: 20px 0; }
   footer .social { width: 48%; margin-top: 30px; height: auto; }
   footer .branding { width: 48%; margin-top: 45px; }
   .inside-pages article { width: 100% !important; padding: 20px 0 !important; }
   .inside-pages aside { width: 100% !important; }
-  .inside-pages aside .testimonial { font-size: 18px !important; line-height: 20px !important; padding: 30px 30px 150px 30px !important; width: 100% !important; height: 234px !important; float: left !important; display: block !important; }
-  .inside-pages aside .owl-carousel .owl-item .item { padding-left: 0% !important; display: block !important; width: 100% !important; float: left !important; margin-left: 0px !important; }
-  .inside-pages aside .owl-carousel .owl-item .item > div { width: 100% !important; margin-top: -30px !important; }
+  .inside-pages aside .testimonial { font-size: 18px !important; line-height: 20px !important; padding: 30px !important; width: 100% !important; float: left !important; display: block !important; margin-top: 0px !important; }
+  .inside-pages aside .owl-carousel .owl-item .item { padding-left: 0% !important; display: block !important; width: 97% !important; float: left !important; margin-left: 5px !important; }
+  .inside-pages aside .owl-carousel .owl-item .item > div { width: 35% !important; margin-top: -30px !important; }
   .inside-pages aside .owl-pagination { top: 13px !important; } }
-@media only screen and (max-width: 400px) { header .six .eighteen { font-size: 20px; }
-  section:nth-child(4) .testimonial { font-size: 15px; line-height: 16px; }
-  footer .social { width: 100%; padding-left: 0%; }
+@media only screen and (max-width: 548px) { section:nth-child(4) .owl-carousel .owl-item .item > div { margin-top: 0px !important; width: 150px !important; height: 150px !important; border-radius: 100% !important; border: 6px solid #b4b4b4; background: #348cb6; overflow: hidden; float: none !important; position: relative !important; clear: both; margin: 0 auto; }
+  .owl-carousel .owl-item .item h3 { width: 100% !important; }
+  section:nth-child(4) .testimonial { width: 100% !important; margin-top: 0px !important; float: right !important; }
+  section:nth-child(4) .testimonial:after { display: none !important; }
+  .elastislide-carousel ul li a { border: 2px solid #b4b4b4 !important; }
+  .elastislide-carousel ul li a img { height: 50% !important; }
+  footer .social { width: 50%; padding-left: 0%; margin: 30px 25% 0 !important; }
   footer .branding { width: 100%; } }
+@media only screen and (max-width: 400px) { header .six .eighteen { font-size: 20px; }
+  section:nth-child(4) .testimonial { font-size: 15px; line-height: 16px; } }
 @media only screen and (max-width: 340px) { header .six .eighteen { font-size: 16px; } }
