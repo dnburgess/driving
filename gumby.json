@@ -1,0 +1,12 @@
+{
+	"build": {
+		"gumbyPath": "bower_components/gumby",
+		"outPath": "js"
+	},
+	"modules": [
+		"fixed",
+		"skiplink",
+		"toggleswitch",
+		"tabs"
+	]
+}

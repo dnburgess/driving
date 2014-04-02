@@ -1,0 +1,118 @@
+/* core */
+.carousel {
+    overflow: hidden;
+}
+.carousel > ul {
+    position: relative;
+    width: 9999px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 180px;
+}
+.carousel > ul > li {
+    float: left;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.carousel-vertical > ul {
+    height: 9999px;
+    width: 100%;
+}
+.carousel_moving {
+  pointer-events: none !important;
+}
+.carousel_loading {
+  min-height: 50px;
+  background: url('../images/AjaxLoader.gif') no-repeat center center transparent;
+}
+
+
+.carousel_wrap {
+    padding: 0 50px;
+}
+
+.clearout {
+    height:20px;
+    clear:both;
+}
+.hidden {
+    display: none;
+}
+.carousel-wrap {
+    margin: 0 auto;
+    max-width:1440px;
+}
+.carousel-items { 
+    text-align:center;
+}
+
+.carousel {
+    width:100%;
+    background:none;
+}
+
+.carousel li {
+  width: auto;
+  list-style: none;
+}
+
+.carousel a {
+  display: block;
+  color: #444;
+}
+.carousel-items img {
+
+}
+
+.carousel-pager {
+  display: block;
+  padding: 0;
+}
+.carousel-pager li {
+  display: inline-block;
+  margin: 0 10px;
+}
+.carousel-pager a {
+  display: block;
+  width: 10px;
+  height: 10px;
+  text-indent: 100%;
+  white-space: nowrap;
+  background-color: #ccc;
+  overflow: hidden;
+  border-radius:50%;
+}
+.carousel-pager-active a {
+  background-color: #bf1e2e;
+}
+
+.carousel-vertical  {
+  position: relative;
+  max-width: 264px;
+  margin: 0 auto;
+}
+.carousel-vertical {
+  height: 200px;
+}
+
+.carousel-vertical li {
+  margin: 10px 0;
+}
+
+.carousel img[data-lazyload="true"] {
+  min-height: 50px;
+  background: url('../images/AjaxLoader.gif') no-repeat center center transparent;
+}
+
+@media only screen and (min-width: 481px) {
+  .carousel li {
+    width: auto;
+  }
+}
+@media only screen and (min-width: 961px) {
+  .carousel li {
+    width: auto;
+  }
+}
