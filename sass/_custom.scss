@@ -388,9 +388,10 @@ section {
 			}
 		}
 		.owl-carousel .owl-item .item {
-			padding-left:5px !important;
+			padding-left:0px !important;
+			padding-right:10px !important;
 			h3 {
-				width:150px;
+				width:100%;
 				float:left;
 				font-size:16px;
 				color:#000;
@@ -675,8 +676,7 @@ footer {
 		float: left !important;
 		color: #000 !important;
 		padding: 0 40px !important;
-		margin: 30px 0 !important;
-		min-width: 400px;
+		margin: 30px 0 0 !important;
 		}
 	aside {
 		width:27% !important;
@@ -700,6 +700,7 @@ footer {
 			box-shadow: 0px 0px 5px #333;
 			margin:0px 0px 30px 0px !important;
 			z-index:1 !important;
+			margin-top:4px !important;
 			&:after {
 				content: "";
 				position: absolute;
@@ -774,14 +775,13 @@ footer {
 			.testimonial {
 				width:99% !important;
 				height: 100% !important;
-				padding-bottom:52px !important;
 				font-size:16px !important;
 				line-height:18px !important;
 			}
 		}
 	}
 	section:nth-child(4) .testimonial {
-		margin-top:-170px !important;
+		margin-top:4px !important;
 	}
 }
 @media only screen and (max-width: 1125px) {
@@ -792,7 +792,7 @@ footer {
 	section:nth-child(4) li {margin-left:-53px !important;}
 	section:nth-child(4) li div {width:85px;}
 	section:nth-child(4) .testimonial {font-size:16px; line-height:18px;}
-	footer {padding-bottom:70px; height:470px;}
+	footer {padding-bottom:70px; height:490px;}
 	footer .map {width:23%; height:230px;}
 	footer .social {width:23%; height:230px;}
 	footer .branding {width:100%;}
@@ -803,8 +803,7 @@ footer {
 		float: left !important;
 		color: #000 !important;
 		padding: 0 40px !important;
-		margin: 30px 0 !important;
-		min-width: 400px;
+		margin: 30px 0 0 !important;
 		}
 		aside {
 			width:27% !important;
@@ -819,7 +818,6 @@ footer {
 			.testimonial {
 				width:99% !important;
 				height: 100% !important;
-				padding-bottom:52px !important;
 				font-size:14px !important;
 				line-height:16px !important;
 			}
@@ -827,12 +825,9 @@ footer {
 	}
 }
 @media only screen and (max-width:975px) {
-	section:nth-child(4) .testimonial {
-		margin-top:-130px !important;
-	}
 	section:nth-child(4) .owl-carousel .owl-item .item {
-	padding-left: 15% !important;
-	padding-right: 15% !important;
+	padding-left: 5% !important;
+	padding-right: 5% !important;
 	}
 	.elastislide-carousel ul li a img {height:60% !important}
 }
@@ -884,6 +879,7 @@ footer {
 		aside {
 			width:100% !important;
 			margin-right:0% !important;
+			margin-top:0px !important;
 			.testimonial {
 				font-size: 18px !important;
 				line-height: 20px !important;
@@ -909,11 +905,12 @@ footer {
 			}
 		}
 	}
-	.inside-pages aside .testimonial {margin-top:0px !important}
+	.inside-pages aside .testimonial {margin-top:4px !important}
 	.inside-pages aside .owl-carousel .owl-item .item > div {
 		width: 29% !important;
 		margin-top: 30px !important;
 	}
+	section:nth-child(4) .owl-carousel .owl-item .item h3 {width:100% !important;}
 }
 @media only screen and (max-width: 610px) {
 	section:nth-child(4) .testimonial {float:right !important; margin-top:-170px !important;}

@@ -2020,8 +2020,8 @@ section:nth-child(4) .testimonial-header { width: 100%; float: left; margin: 25p
 section:nth-child(4) .testimonial-header img { display: block; margin: 0 auto; }
 section:nth-child(4) .testimonial { width: 55%; height: auto; float: right; margin-right: 10%; background: #fff; padding: 20px 20px 20px 20px; font-size: 18px; line-height: 20px; text-align: left; font-family: "Alegreya Sans", sans-serif; font-style: italic; color: #000; background-size: cover; position: relative; margin-left: 50px; margin-top: -140px; box-shadow: 0px 0px 5px #333; }
 section:nth-child(4) .testimonial:after { content: ""; position: absolute; bottom: 25%; left: -40px; border-width: 0 40px 25px 0px; border-style: solid; border-color: transparent #fff; display: block; width: 0; }
-section:nth-child(4) .owl-carousel .owl-item .item { padding-left: 5px !important; }
-section:nth-child(4) .owl-carousel .owl-item .item h3 { width: 150px; float: left; font-size: 16px; color: #000; clear: left; text-align: center; }
+section:nth-child(4) .owl-carousel .owl-item .item { padding-left: 0px !important; padding-right: 10px !important; }
+section:nth-child(4) .owl-carousel .owl-item .item h3 { width: 100%; float: left; font-size: 16px; color: #000; clear: left; text-align: center; }
 section:nth-child(4) .owl-carousel .owl-item .item > div { width: 100% !important; margin-top: 0px !important; width: 150px !important; height: 150px !important; border-radius: 100% !important; border: 6px solid #b4b4b4; background: #348cb6; overflow: hidden; float: left !important; position: relative !important; }
 section:nth-child(4) .owl-carousel .owl-item .item > div img { display: block !important; margin: 0 auto !important; width: 150px !important; height: 150px !important; }
 section:nth-child(4) .owl-carousel .owl-item .item > div .link { width: 40px; height: 40px; display: block; position: absolute; right: -70px; bottom: 10%; background: #931420 url(../img/icons/link.png) 5px 5px no-repeat; -webkit-transition: all .2s ease-in-out; -moz-transition: all .2s ease-in-out; -o-transition: all .2s ease-in-out; transition: all .2s ease-in-out; }
@@ -2075,10 +2075,10 @@ footer p { font-family: "Alegreya Sans", sans-serif; font-size: 14px; line-heigh
 .breadcrumb ul li a { color: #fff !important; text-decoration: none !important; }
 
 .inside-pages { background: #fff !important; }
-.inside-pages article { width: 68% !important; max-width: 100% !important; float: left !important; color: #000 !important; padding: 0 40px !important; margin: 30px 0 !important; min-width: 400px; }
+.inside-pages article { width: 68% !important; max-width: 100% !important; float: left !important; color: #000 !important; padding: 0 40px !important; margin: 30px 0 0 !important; }
 .inside-pages aside { width: 27% !important; min-width: 300px !important; float: right !important; margin-top: 25px !important; margin-bottom: 25px !important; }
 .inside-pages aside .sidebar-testimonials { width: 100% !important; float: left !important; background: url(../img/testimonials-bg.png) !important; padding: 10px 25px 0px !important; }
-.inside-pages aside .testimonial { width: 96% !important; height: 100% !important; background: #fff !important; padding: 10px !important; background-size: cover !important; position: relative !important; box-shadow: 0px 0px 5px #333; margin: 0px 0px 30px 0px !important; z-index: 1 !important; }
+.inside-pages aside .testimonial { width: 96% !important; height: 100% !important; background: #fff !important; padding: 10px !important; background-size: cover !important; position: relative !important; box-shadow: 0px 0px 5px #333; margin: 0px 0px 30px 0px !important; z-index: 1 !important; margin-top: 4px !important; }
 .inside-pages aside .testimonial:after { content: ""; position: absolute; bottom: -30px; left: 50px; border-width: 0 20px 30px 0px; border-style: solid; border-color: transparent #fff; display: block; width: 0; z-index: -1; }
 .inside-pages aside .owl-carousel .owl-item .item { padding-left: 5px !important; }
 .inside-pages aside .owl-carousel .owl-item .item > div { margin-top: 30px !important; width: 150px !important; height: 150px !important; border-radius: 100% !important; border: 6px solid #b4b4b4; background: #348cb6; overflow: hidden; float: none !important; margin: 0 auto !important; position: relative !important; }
@@ -2093,8 +2093,8 @@ footer p { font-family: "Alegreya Sans", sans-serif; font-size: 14px; line-heigh
   section:nth-child(4) .carousel > ul { margin-left: 20px !important; }
   section:nth-child(4) li { margin-left: -53px !important; }
   .elastislide-carousel ul li a img { height: 70% !important; }
-  .inside-pages aside .testimonial { width: 99% !important; height: 100% !important; padding-bottom: 52px !important; font-size: 16px !important; line-height: 18px !important; }
-  section:nth-child(4) .testimonial { margin-top: -170px !important; } }
+  .inside-pages aside .testimonial { width: 99% !important; height: 100% !important; font-size: 16px !important; line-height: 18px !important; }
+  section:nth-child(4) .testimonial { margin-top: 4px !important; } }
 @media only screen and (max-width: 1125px) { header .six .eighteen { font-size: 19px; }
   header .navbar#nav2 ul li a { font-size: 12px; }
   section:nth-child(4) .carousel { width: 100% !important; }
@@ -2102,16 +2102,15 @@ footer p { font-family: "Alegreya Sans", sans-serif; font-size: 14px; line-heigh
   section:nth-child(4) li { margin-left: -53px !important; }
   section:nth-child(4) li div { width: 85px; }
   section:nth-child(4) .testimonial { font-size: 16px; line-height: 18px; }
-  footer { padding-bottom: 70px; height: 470px; }
+  footer { padding-bottom: 70px; height: 490px; }
   footer .map { width: 23%; height: 230px; }
   footer .social { width: 23%; height: 230px; }
   footer .branding { width: 100%; }
-  .inside-pages article { width: 60% !important; max-width: 100% !important; float: left !important; color: #000 !important; padding: 0 40px !important; margin: 30px 0 !important; min-width: 400px; }
+  .inside-pages article { width: 60% !important; max-width: 100% !important; float: left !important; color: #000 !important; padding: 0 40px !important; margin: 30px 0 0 !important; }
   .inside-pages aside { width: 27% !important; min-width: 300px !important; float: right !important; }
   .inside-pages aside .sidebar-testimonials { width: 100% !important; float: left !important; background: url(../img/testimonials-bg.png) !important; padding: 10px 25px 0px !important; }
-  .inside-pages aside .testimonial { width: 99% !important; height: 100% !important; padding-bottom: 52px !important; font-size: 14px !important; line-height: 16px !important; } }
-@media only screen and (max-width: 975px) { section:nth-child(4) .testimonial { margin-top: -130px !important; }
-  section:nth-child(4) .owl-carousel .owl-item .item { padding-left: 15% !important; padding-right: 15% !important; }
+  .inside-pages aside .testimonial { width: 99% !important; height: 100% !important; font-size: 14px !important; line-height: 16px !important; } }
+@media only screen and (max-width: 975px) { section:nth-child(4) .owl-carousel .owl-item .item { padding-left: 5% !important; padding-right: 5% !important; }
   .elastislide-carousel ul li a img { height: 60% !important; } }
 @media only screen and (max-width: 925px) { header .six .eighteen { font-size: 17px; padding-left: 20px; }
   header .navbar#nav2 ul li a { font-size: 10px; }
@@ -2146,13 +2145,14 @@ footer p { font-family: "Alegreya Sans", sans-serif; font-size: 14px; line-heigh
   footer .branding { width: 48%; }
   p { font-size: .9rem !important; padding-right: 5% !important; }
   .inside-pages article { width: 100% !important; padding: 20px 0 !important; }
-  .inside-pages aside { width: 100% !important; margin-right: 0% !important; }
+  .inside-pages aside { width: 100% !important; margin-right: 0% !important; margin-top: 0px !important; }
   .inside-pages aside .testimonial { font-size: 18px !important; line-height: 20px !important; padding: 30px !important; float: left !important; display: block !important; width: 100% !important; }
   .inside-pages aside .owl-carousel .owl-item .item { padding-left: 10% !important; padding-right: 0% !important; display: block !important; width: 100% !important; float: left !important; margin-left: -30px !important; }
   .inside-pages aside .owl-carousel .owl-item .item > div { width: 100% !important; margin-top: 30px !important; }
   .inside-pages aside .owl-pagination { top: 13px !important; }
-  .inside-pages aside .testimonial { margin-top: 0px !important; }
-  .inside-pages aside .owl-carousel .owl-item .item > div { width: 29% !important; margin-top: 30px !important; } }
+  .inside-pages aside .testimonial { margin-top: 4px !important; }
+  .inside-pages aside .owl-carousel .owl-item .item > div { width: 29% !important; margin-top: 30px !important; }
+  section:nth-child(4) .owl-carousel .owl-item .item h3 { width: 100% !important; } }
 @media only screen and (max-width: 610px) { section:nth-child(4) .testimonial { float: right !important; margin-top: -170px !important; } }
 @media only screen and (max-width: 610px) { section:nth-child(4) .testimonial { float: right !important; margin-top: -170px !important; } }
 @media only screen and (max-width: 600px) { section:nth-child(3) article { width: 100%; margin: 30px 0% 10px; }
